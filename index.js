@@ -11,12 +11,17 @@ function theBeatlesPlay(){
   var emptyArr = new Array();
   
   for (i = 0; i < musicians.length; i++){
+<<<<<<< HEAD
       var string = `${musicians[i]} plays ${instruments[i]}`
       emptyArr.push(string); 
+=======
+      emptyArr =`${musicians[i]} plays ${instruments[i]}` 
+>>>>>>> 544628229e66d80d03325668d4dccdfbc48e3313
   }
   
   return emptyArr
 }
+<<<<<<< HEAD
 
 function johnLennonFacts(){
   const facts = [ "He was the last Beatle to learn to drive",
@@ -38,3 +43,5 @@ function johnLennonFacts(){
 }
 
 
+=======
+>>>>>>> 544628229e66d80d03325668d4dccdfbc48e3313
